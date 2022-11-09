@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="518.0" prefWidth="1195.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="521.0" prefWidth="1270.0">
+         <children>
+            <Label layoutX="71.0" layoutY="14.0" prefHeight="17.0" prefWidth="60.0" text="Miara" />
+            <TextField fx:id="Miara" layoutX="14.0" layoutY="44.0" />
+            <Label layoutX="14.0" layoutY="75.0" text="z" />
+            <Label layoutX="131.0" layoutY="75.0" text="na" />
+            <RadioButton fx:id="znm" layoutX="13.0" layoutY="102.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="nm">
+               <toggleGroup>
+                  <ToggleGroup fx:id="toodgleGroup1" />
+               </toggleGroup></RadioButton>
+            <RadioButton fx:id="nanm" layoutX="119.0" layoutY="102.0" mnemonicParsing="false" text="nm">
+               <toggleGroup>
+                  <ToggleGroup fx:id="toodgleGroup2" />
+               </toggleGroup></RadioButton>
+            <RadioButton fx:id="zmm" layoutX="13.0" layoutY="122.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="mm" toggleGroup="$toodgleGroup1" />
+            <RadioButton fx:id="namm" layoutX="119.0" layoutY="122.0" mnemonicParsing="false" text="mm" toggleGroup="$toodgleGroup2" />
+            <Button fx:id="GOMiara" layoutX="70.0" layoutY="367.0" mnemonicParsing="false" onMouseClicked="#Miara" text="GO!" />
+            <Label layoutX="72.0" layoutY="409.0" prefHeight="16.0" prefWidth="33.0" text="Wynik" />
+            <TextField fx:id="WynikMiara" layoutX="14.0" layoutY="433.0" prefHeight="25.0" prefWidth="149.0" />
+            <Text fx:id="CommunicatMiara" fill="#df133c" layoutX="14.0" layoutY="341.0" textAlignment="CENTER" wrappingWidth="148.5078066587448" />
+            <Button fx:id="Paste" layoutX="171.0" layoutY="44.0" mnemonicParsing="false" onMouseClicked="#pasteMiara" text="Wyczyść" />
+            <RadioButton fx:id="zcm" layoutX="13.0" layoutY="142.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="cm" toggleGroup="$toodgleGroup1" />
+            <RadioButton fx:id="nacm" layoutX="119.0" layoutY="142.0" mnemonicParsing="false" text="cm" toggleGroup="$toodgleGroup2" />
+            <RadioButton fx:id="zdm" layoutX="14.0" layoutY="162.0" mnemonicParsing="false" text="dm" toggleGroup="$toodgleGroup1" />
+            <RadioButton fx:id="nadm" layoutX="119.0" layoutY="162.0" mnemonicParsing="false" text="dm" toggleGroup="$toodgleGroup2" />
+            <RadioButton fx:id="zm" layoutX="13.0" layoutY="182.0" mnemonicParsing="false" text="m" toggleGroup="$toodgleGroup1" />
+            <RadioButton fx:id="zkm" layoutX="13.0" layoutY="202.0" mnemonicParsing="false" text="km" toggleGroup="$toodgleGroup1" />
+            <RadioButton fx:id="zcal" layoutX="13.0" layoutY="222.0" mnemonicParsing="false" text="cal" toggleGroup="$toodgleGroup1" />
+            <RadioButton fx:id="zstopa" layoutX="13.0" layoutY="242.0" mnemonicParsing="false" text="stopa" toggleGroup="$toodgleGroup1" />
+            <RadioButton fx:id="zjard" layoutX="13.0" layoutY="262.0" mnemonicParsing="false" text="jard" toggleGroup="$toodgleGroup1" />
+            <RadioButton fx:id="zmilal" layoutX="13.0" layoutY="282.0" mnemonicParsing="false" text="mila lądowa" toggleGroup="$toodgleGroup1" />
+            <RadioButton fx:id="zmilam" layoutX="13.0" layoutY="302.0" mnemonicParsing="false" text="mila morska" toggleGroup="$toodgleGroup1" />
+            <RadioButton fx:id="nam" layoutX="119.0" layoutY="182.0" mnemonicParsing="false" text="m" toggleGroup="$toodgleGroup2" />
+            <RadioButton fx:id="nakm" layoutX="119.0" layoutY="202.0" mnemonicParsing="false" text="km" toggleGroup="$toodgleGroup2" />
+            <RadioButton fx:id="nacal" layoutX="119.0" layoutY="222.0" mnemonicParsing="false" text="cal" toggleGroup="$toodgleGroup2" />
+            <RadioButton fx:id="nastopa" layoutX="119.0" layoutY="242.0" mnemonicParsing="false" text="stopa" toggleGroup="$toodgleGroup2" />
+            <RadioButton fx:id="najard" layoutX="119.0" layoutY="262.0" mnemonicParsing="false" text="jard" toggleGroup="$toodgleGroup2" />
+            <RadioButton fx:id="namilal" layoutX="119.0" layoutY="282.0" mnemonicParsing="false" text="mila lądowa" toggleGroup="$toodgleGroup2" />
+            <RadioButton fx:id="namilam" layoutX="119.0" layoutY="302.0" mnemonicParsing="false" text="mila morska" toggleGroup="$toodgleGroup2" />
+            <Label layoutX="310.0" layoutY="14.0" prefHeight="17.0" prefWidth="60.0" text="Czas" />
+            <TextField fx:id="Czas" layoutX="252.0" layoutY="44.0" />
+            <Label layoutX="252.0" layoutY="75.0" text="z" />
+            <Label layoutX="365.0" layoutY="75.0" text="na" />
+            <Button fx:id="Paste1" layoutX="409.0" layoutY="44.0" mnemonicParsing="false" onMouseClicked="#pasteCzas" text="Wyczyść" />
+            <RadioButton fx:id="zsek" layoutX="252.0" layoutY="102.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="sek">
+               <toggleGroup>
+                  <ToggleGroup fx:id="toodgleGroup3" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="zmin" layoutX="252.0" layoutY="122.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="min" toggleGroup="$toodgleGroup3" />
+            <RadioButton fx:id="zgodz" layoutX="252.0" layoutY="142.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="godz" toggleGroup="$toodgleGroup3" />
+            <RadioButton fx:id="zdni" layoutX="252.0" layoutY="162.0" mnemonicParsing="false" text="dni" toggleGroup="$toodgleGroup3" />
+            <RadioButton fx:id="nasek" layoutX="357.0" layoutY="102.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="sek">
+               <toggleGroup>
+                  <ToggleGroup fx:id="toodgleGroup4" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="namin" layoutX="357.0" layoutY="122.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="min" toggleGroup="$toodgleGroup4" />
+            <RadioButton fx:id="nagodz" layoutX="357.0" layoutY="142.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="godz" toggleGroup="$toodgleGroup4" />
+            <RadioButton fx:id="nadni" layoutX="358.0" layoutY="162.0" mnemonicParsing="false" text="dni" toggleGroup="$toodgleGroup4" />
+            <Button fx:id="GOCzas" layoutX="308.0" layoutY="367.0" mnemonicParsing="false" onMouseClicked="#Czas" text="GO!" />
+            <Label layoutX="310.0" layoutY="409.0" prefHeight="16.0" prefWidth="33.0" text="Wynik" />
+            <TextField fx:id="WynikCzas" layoutX="252.0" layoutY="433.0" prefHeight="25.0" prefWidth="149.0" />
+            <Label layoutX="527.0" layoutY="14.0" prefHeight="17.0" prefWidth="71.0" text="Powierzchnia" />
+            <TextField fx:id="Powierzchnia" layoutX="488.0" layoutY="44.0" />
+            <Button fx:id="Paste11" layoutX="646.0" layoutY="44.0" mnemonicParsing="false" onMouseClicked="#pastePowierzchnia" text="Wyczyść" />
+            <Label layoutX="488.0" layoutY="75.0" text="z" />
+            <Label layoutX="604.0" layoutY="75.0" text="na" />
+            <Button fx:id="GOPowierzchnia" layoutX="544.0" layoutY="367.0" mnemonicParsing="false" onMouseClicked="#Powierzchnia" text="GO!" />
+            <TextField fx:id="WynikPowierzchnia" layoutX="488.0" layoutY="433.0" prefHeight="25.0" prefWidth="149.0" />
+            <Label layoutX="546.0" layoutY="409.0" prefHeight="16.0" prefWidth="33.0" text="Wynik" />
+            <RadioButton fx:id="zcm2" layoutX="488.0" layoutY="102.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="cm^2">
+               <toggleGroup>
+                  <ToggleGroup fx:id="toodgleGroup5" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="zdm2" layoutX="488.0" layoutY="122.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="dm^2" toggleGroup="$toodgleGroup5" />
+            <RadioButton fx:id="zha" layoutX="488.0" layoutY="182.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="ha" toggleGroup="$toodgleGroup5" />
+            <RadioButton fx:id="zm2" layoutX="488.0" layoutY="142.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="m^2" toggleGroup="$toodgleGroup5" />
+            <RadioButton fx:id="zar" layoutX="488.0" layoutY="162.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="ar" toggleGroup="$toodgleGroup5" />
+            <RadioButton fx:id="zkm2" layoutX="488.0" layoutY="202.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="km^2" toggleGroup="$toodgleGroup5" />
+            <RadioButton fx:id="nacm2" layoutX="593.0" layoutY="102.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="cm^2">
+               <toggleGroup>
+                  <ToggleGroup fx:id="toodgleGroup6" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="nadm2" layoutX="593.0" layoutY="122.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="dm^2" toggleGroup="$toodgleGroup6" />
+            <RadioButton fx:id="nam2" layoutX="593.0" layoutY="142.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="m^2" toggleGroup="$toodgleGroup6" />
+            <RadioButton fx:id="naar" layoutX="593.0" layoutY="162.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="ar" toggleGroup="$toodgleGroup6" />
+            <RadioButton fx:id="naha" layoutX="593.0" layoutY="182.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="ha" toggleGroup="$toodgleGroup6" />
+            <RadioButton fx:id="nakm2" layoutX="593.0" layoutY="202.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="88.0" text="km^2" toggleGroup="$toodgleGroup6" />
+            <Label layoutX="788.0" layoutY="14.0" prefHeight="17.0" prefWidth="32.0" text="Masa" />
+            <Button fx:id="Paste111" layoutX="890.0" layoutY="44.0" mnemonicParsing="false" onMouseClicked="#pasteMasa" text="Wyczyść" />
+            <Label layoutX="730.0" layoutY="75.0" text="z" />
+            <Label layoutX="848.0" layoutY="75.0" text="na" />
+            <RadioButton fx:id="zmg" layoutX="730.0" layoutY="102.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="mg">
+               <toggleGroup>
+                  <ToggleGroup fx:id="toodgleGroup7" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="namg" layoutX="838.0" layoutY="102.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="mg">
+               <toggleGroup>
+                  <ToggleGroup fx:id="toodgleGroup8" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="zg" layoutX="730.0" layoutY="122.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="g" toggleGroup="$toodgleGroup7" />
+            <RadioButton fx:id="zdg" layoutX="730.0" layoutY="142.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="dg" toggleGroup="$toodgleGroup7" />
+            <RadioButton fx:id="zkg" layoutX="730.0" layoutY="162.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="kg" toggleGroup="$toodgleGroup7" />
+            <RadioButton fx:id="zt" layoutX="730.0" layoutY="182.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="t" toggleGroup="$toodgleGroup7" />
+            <RadioButton fx:id="nag" layoutX="838.0" layoutY="122.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="g" toggleGroup="$toodgleGroup8" />
+            <RadioButton fx:id="nadg" layoutX="838.0" layoutY="142.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="dg" toggleGroup="$toodgleGroup8" />
+            <RadioButton fx:id="nakg" layoutX="838.0" layoutY="162.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="kg" toggleGroup="$toodgleGroup8" />
+            <RadioButton fx:id="nat" layoutX="838.0" layoutY="182.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="t" toggleGroup="$toodgleGroup8" />
+            <Button fx:id="GOMasa" layoutX="786.0" layoutY="367.0" mnemonicParsing="false" onMouseClicked="#Masa" text="GO!" />
+            <TextField fx:id="WynikMasa" layoutX="730.0" layoutY="433.0" prefHeight="25.0" prefWidth="149.0" />
+            <Label layoutX="788.0" layoutY="409.0" prefHeight="16.0" prefWidth="33.0" text="Wynik" />
+            <TextField fx:id="Dane" layoutX="975.0" layoutY="44.0" />
+            <Button fx:id="Paste1111" layoutX="1135.0" layoutY="44.0" mnemonicParsing="false" onMouseClicked="#pasteDane" text="Wyczyść" />
+            <Label layoutX="1033.0" layoutY="14.0" prefHeight="17.0" prefWidth="32.0" text="Dane" />
+            <Label layoutX="975.0" layoutY="75.0" text="z" />
+            <Label layoutX="1093.0" layoutY="75.0" text="na" />
+            <RadioButton fx:id="zbity" layoutX="975.0" layoutY="102.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="bity">
+               <toggleGroup>
+                  <ToggleGroup fx:id="toodgleGroup9" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="zbajty" layoutX="973.0" layoutY="122.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="bajty" toggleGroup="$toodgleGroup9" />
+            <RadioButton fx:id="nabity" layoutX="1085.0" layoutY="102.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="bity">
+               <toggleGroup>
+                  <ToggleGroup fx:id="toodgleGroup10" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="nabajty" layoutX="1085.0" layoutY="122.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="60.0" text="bajty" toggleGroup="$toodgleGroup10" />
+            <Button fx:id="GODane" layoutX="1031.0" layoutY="367.0" mnemonicParsing="false" onMouseClicked="#Dane" text="GO!" />
+            <TextField fx:id="WynikDane" layoutX="975.0" layoutY="433.0" prefHeight="25.0" prefWidth="149.0" />
+            <Label layoutX="1033.0" layoutY="409.0" prefHeight="16.0" prefWidth="33.0" text="Wynik" />
+            <TextField fx:id="Masa" layoutX="730.0" layoutY="44.0" />
+            <Text fx:id="CommunicatMiara1" fill="#df133c" layoutX="24.0" layoutY="348.0" textAlignment="CENTER" wrappingWidth="148.5078066587448" />
+         </children></Pane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
